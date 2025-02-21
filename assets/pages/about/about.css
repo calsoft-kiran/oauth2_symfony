@@ -1,0 +1,21 @@
+.about_div {
+    background-color: rgb(38, 238, 42);
+}
+
+.about_div > .row {
+    height:100%;
+    border:1px solid grey;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about_div >.row > .col {
+    height:100%;
+    border:1px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}

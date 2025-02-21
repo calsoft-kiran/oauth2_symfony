@@ -1,0 +1,21 @@
+.contact_div {
+    background-color: rgb(67, 66, 129);
+}
+
+.contact_div > .row {
+    height:150px;
+    border:1px solid grey;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact_div >.row > .col {
+    height:150px;
+    border:1px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}

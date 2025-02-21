@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{# page specific css #}
+{% block styles %}
+    {% for css in css_files %}
+        <link rel="stylesheet" href="{{ asset(css) }}">
+    {% endfor %}
+{% endblock %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block body %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{path('home')}}">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">About</a></li>
+  </ol>
+</nav>
+  <div class="about_div">
+    <div class="card">
+      <h5 class="card-header">Featured</h5>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{# page specific js #}
+{% block scripts %}
+    {% for js in js_files %}
+        <script src="{{ asset(js) }}"></script>
+    {% endfor %}
+{% endblock %}

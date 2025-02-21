@@ -1,0 +1,21 @@
+.home_div {
+    background-color: rgb(143, 188, 167);
+}
+
+.home_div > .row {
+    height:150px;
+    border:1px solid grey;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.home_div >.row > .col {
+    height:150px;
+    border:1px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
