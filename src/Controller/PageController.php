@@ -21,12 +21,6 @@ class PageController extends AbstractController
             ],
             'js_files' => [
                 $assets->getUrl('pages/home/home.js'),
-            ],
-            'global_css'=>[
-                $assets->getUrl('global/global.css'),
-            ],
-            'global_js'=>[
-                $assets->getUrl('global/global.js'),
             ]
         ]);
     }
@@ -43,13 +37,6 @@ class PageController extends AbstractController
             'js_files' => [
                 $assets->getUrl('pages/about/about.js'),
             ]
-            ,
-            'global_css'=>[
-                $assets->getUrl('global/global.css'),
-            ],
-            'global_js'=>[
-                $assets->getUrl('global/global.js'),
-            ]
         ]);
     }
 
@@ -64,12 +51,6 @@ class PageController extends AbstractController
             ],
             'js_files' => [
                 $assets->getUrl('pages/contact/contact.js'),
-            ],
-            'global_css'=>[
-                $assets->getUrl('global/global.css'),
-            ],
-            'global_js'=>[
-                $assets->getUrl('global/global.js'),
             ]
         ]);
     }
